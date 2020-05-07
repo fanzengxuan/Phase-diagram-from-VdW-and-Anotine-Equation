@@ -43,6 +43,8 @@ for i in range(len(vList)):
     pList.append(p)
     TList.append(T)
 plt.plot(vList,pList)
+plt.xlabel('v')
+plt.ylabel('p')
 plt.show()
 plt.plot(TList,pList,'.')
 plt.show()
