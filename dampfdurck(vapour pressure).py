@@ -26,5 +26,7 @@ for i in range(len(TList)):
     vList.append(v)
     
 plt.plot(TList,pList,'.')
+plt.xlable('T')
+plt.ylable('p')
 plt.show()
 
